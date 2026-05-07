@@ -8,6 +8,6 @@ package pkg5musical.pkgint;
  *
  * @author gugaa
  */
-public class InstrumentoMusical {
-    
+public interface InstrumentoMusical {
+    public void tocar();
 }
