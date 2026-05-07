@@ -8,6 +8,9 @@ package pkg5musical.abs;
  *
  * @author gugaa
  */
-public class Guitarra {
-    
+public class Guitarra extends InstrumentoMusical{
+    @Override
+    public void tocar(){
+       System.out.println("A guitarra está tocando."); 
+    }
 }
