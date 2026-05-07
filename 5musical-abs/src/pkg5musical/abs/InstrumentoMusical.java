@@ -8,6 +8,8 @@ package pkg5musical.abs;
  *
  * @author gugaa
  */
-public class InstrumentoMusical {
+public abstract class InstrumentoMusical {
+    
+public abstract void tocar();
     
 }
