@@ -8,6 +8,9 @@ package pkg5musical.pkgint;
  *
  * @author gugaa
  */
-public class Guitarra {
-    
+public class Guitarra implements InstrumentoMusical{
+    @Override
+    public void tocar(){
+        System.out.println("O piano está tocando.");
+    }
 }
